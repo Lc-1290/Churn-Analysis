@@ -68,7 +68,7 @@ def plot_churn_by_range(df, column, step, title, xlabel):
     """Plot churn rate across numerical ranges."""
 
     max_value = df[column].max()
-    bins = range(0, int(max_value) + step, step)
+    bins = range(0, int(max_value) + step + 1, step)
 
     df = df.copy()
 
@@ -104,4 +104,3 @@ def plot_churn_by_range(df, column, step, title, xlabel):
     plt.tight_layout()
     plt.show()
 
-plot_churn_by_scatter(df, 'Tenure', 'MonthlyCharges', 'Churn Rate by Tenure and Monthly Charges')
