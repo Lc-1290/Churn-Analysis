@@ -112,8 +112,7 @@ The `CustomerID` column is treated only as an identifier and is not used as an a
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/Lc-1290/Churn-Analysis
 ```
 
 Create a virtual environment:
